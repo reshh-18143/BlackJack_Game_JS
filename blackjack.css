@@ -1,4 +1,3 @@
-/* Apply general styles */
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url(img.jpeg);
@@ -13,15 +12,13 @@ body {
     font-weight: bold;
 }
 
-/* Container for all content */
 .container {
-    background-color: rgba(0, 0, 0, 0.5); /* Optional blur/dark effect */
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 30px;
     border-radius: 12px;
     text-align: center;
 }
 
-/* Headings and paragraph styles */
 h1 {
     color: rgb(226, 166, 14);
     font-size: 2.5rem;
@@ -41,7 +38,6 @@ p {
     margin-top: 20px;
 }
 
-/* Buttons */
 button {
     width: 150px;
     color: #05016f;
@@ -64,5 +60,5 @@ button:active {
 #cards-el,
 #sum-el,
 #player-el {
-    margin-bottom: 10px; /* Add space below each line */
+    margin-bottom: 10px; 
 }
